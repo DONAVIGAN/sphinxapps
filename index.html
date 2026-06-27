@@ -1,19 +1,3 @@
-Aucun élément sélectionné 
-
-Aller au contenu
-Utiliser Gmail avec un lecteur d'écran
-1 sur 1 969
-(aucun objet)
-Boîte de réception
-
-TECHNOPOLES TV <vignath1978@gmail.com>
-Pièces jointes
-22:46 (il y a 0 minute)
-À moi
-
- Une pièce jointe
-  •  Analysé par Gmail
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -107,6 +91,9 @@ Pièces jointes
     .app-price span{font-size:10px;color:var(--muted);font-family:'Outfit',sans-serif;font-weight:400;display:block;margin-top:1px}
     .app-btn{padding:8px 18px;border-radius:30px;border:1px solid var(--gold);background:transparent;color:var(--gold);font-size:12px;font-weight:700;cursor:pointer;transition:all .25s;font-family:'Outfit',sans-serif;letter-spacing:.5px;text-decoration:none;display:inline-block}
     .app-btn:hover{background:var(--gold);color:#08090f}
+    /* Badge désactivé pour apps non encore déployées */
+    .app-btn-soon{padding:8px 18px;border-radius:30px;border:1px solid rgba(249,115,22,.35);background:rgba(249,115,22,.1);color:#fb923c;font-size:12px;font-weight:700;font-family:'Outfit',sans-serif;letter-spacing:.5px;display:inline-flex;align-items:center;gap:6px;cursor:default}
+    .app-btn-soon::before{content:"";width:6px;height:6px;border-radius:50%;background:#fb923c;opacity:.8}
 
     /* ── FEATURED APP ── */
     .featured-card{grid-column:1/-1;border-radius:24px;background:linear-gradient(135deg,rgba(201,168,76,.1),rgba(201,168,76,.03));border:1px solid rgba(201,168,76,.3);padding:36px;display:flex;gap:32px;align-items:center;flex-wrap:wrap;position:relative;overflow:hidden}
@@ -191,7 +178,7 @@ Pièces jointes
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
     </a>
     <div class="hero-stats">
-      <div><div class="stat-n">5</div><div class="stat-l">Applications</div></div>
+      <div><div class="stat-n">12</div><div class="stat-l">Applications</div></div>
       <div><div class="stat-n">IA</div><div class="stat-l">Propulsé</div></div>
       <div><div class="stat-n">24/7</div><div class="stat-l">Disponible</div></div>
     </div>
@@ -205,7 +192,7 @@ Pièces jointes
   <div class="container">
     <div class="reveal">
       <div class="section-label">Notre catalogue</div>
-      <div class="section-title">5 applications,<br/>5 domaines d'excellence</div>
+      <div class="section-title">12 applications,<br/>une expertise dans chaque domaine</div>
       <div class="section-sub">Chaque application SphinxApps est conçue avec l'IA la plus avancée pour vous offrir une expertise professionnelle dans votre poche.</div>
     </div>
 
@@ -320,6 +307,174 @@ Pièces jointes
         </div>
       </div>
 
+      <!-- ARIA -->
+      <div class="app-card reveal">
+        <div class="app-card-top">
+          <div class="app-icon" style="background:linear-gradient(135deg,#0d9488,#0891b2)">🎙️</div>
+          <div class="app-meta">
+            <div class="app-name">ARIA</div>
+            <div class="app-tagline">Assistant vocal intelligent</div>
+            <div class="app-badge" style="background:rgba(20,184,166,.15);color:#2dd4bf;border:1px solid rgba(20,184,166,.3)">ASSISTANT IA</div>
+          </div>
+        </div>
+        <div class="app-desc">Votre assistant vocal mobile propulsé par l'IA. Posez vos questions à voix haute, obtenez des réponses claires et lancez des recherches intelligentes sur le web, où que vous soyez.</div>
+        <div class="app-features">
+          <span class="feat-tag">Commande vocale</span>
+          <span class="feat-tag">Recherche web</span>
+          <span class="feat-tag">PWA installable</span>
+          <span class="feat-tag">Mobile first</span>
+          <span class="feat-tag">Hors-ligne</span>
+        </div>
+        <div class="app-footer">
+          <div class="app-price">Gratuit<span>essai disponible</span></div>
+          <a href="https://donavigan.github.io/aria-assistant/" target="_blank" class="app-btn">Accéder →</a>
+        </div>
+      </div>
+
+      <!-- PharmaGo -->
+      <div class="app-card reveal">
+        <div class="app-card-top">
+          <div class="app-icon" style="background:linear-gradient(135deg,#16a34a,#059669)">💊</div>
+          <div class="app-meta">
+            <div class="app-name">PharmaGo</div>
+            <div class="app-tagline">Pharmacies de garde au Niger</div>
+            <div class="app-badge" style="background:rgba(34,197,94,.15);color:#4ade80;border:1px solid rgba(34,197,94,.3)">SANTÉ</div>
+          </div>
+        </div>
+        <div class="app-desc">Trouvez la pharmacie de garde la plus proche, géolocalisez les officines au Niger et commandez vos médicaments en quelques gestes. 206 pharmacies de proximité, 24 de garde référencées.</div>
+        <div class="app-features">
+          <span class="feat-tag">Géolocalisation</span>
+          <span class="feat-tag">Pharmacies de garde</span>
+          <span class="feat-tag">Commande</span>
+          <span class="feat-tag">Niger</span>
+          <span class="feat-tag">App mobile</span>
+        </div>
+        <div class="app-footer">
+          <div class="app-price">Gratuit<span>app mobile</span></div>
+          <span class="app-btn-soon">Bientôt disponible</span>
+        </div>
+      </div>
+
+      <!-- SphinxPOS -->
+      <div class="app-card reveal">
+        <div class="app-card-top">
+          <div class="app-icon" style="background:linear-gradient(135deg,#7c3aed,#4f46e5)">🧾</div>
+          <div class="app-meta">
+            <div class="app-name">SphinxPOS</div>
+            <div class="app-tagline">Point de vente & facturation certifiée</div>
+            <div class="app-badge" style="background:rgba(124,58,237,.15);color:#a78bfa;border:1px solid rgba(124,58,237,.3)">GESTION COMMERCIALE</div>
+          </div>
+        </div>
+        <div class="app-desc">Système de point de vente complet avec gestion des licences et facturation certifiée conforme aux exigences du Niger et du Bénin. Pensé pour les commerces et PME d'Afrique de l'Ouest.</div>
+        <div class="app-features">
+          <span class="feat-tag">Caisse / POS</span>
+          <span class="feat-tag">Facturation certifiée</span>
+          <span class="feat-tag">Licensing</span>
+          <span class="feat-tag">Niger / Bénin</span>
+          <span class="feat-tag">B2B</span>
+        </div>
+        <div class="app-footer">
+          <div class="app-price">B2B<span>sur devis</span></div>
+          <span class="app-btn-soon">Bientôt disponible</span>
+        </div>
+      </div>
+
+      <!-- SphinxCollect -->
+      <div class="app-card reveal">
+        <div class="app-card-top">
+          <div class="app-icon" style="background:linear-gradient(135deg,#0284c7,#0369a1)">📊</div>
+          <div class="app-meta">
+            <div class="app-name">SphinxCollect</div>
+            <div class="app-tagline">Collecte de données terrain</div>
+            <div class="app-badge" style="background:rgba(2,132,199,.15);color:#38bdf8;border:1px solid rgba(2,132,199,.3)">DATA & RECHERCHE</div>
+          </div>
+        </div>
+        <div class="app-desc">Plateforme de collecte de données terrain pour ONG et acteurs du développement : enquêtes éclair, études de base/endline, tableaux de bord projet et migration de vos formulaires Kobo vers SPHINX.</div>
+        <div class="app-features">
+          <span class="feat-tag">Enquêtes terrain</span>
+          <span class="feat-tag">Hors-ligne</span>
+          <span class="feat-tag">Migration Kobo</span>
+          <span class="feat-tag">Tableaux de bord</span>
+          <span class="feat-tag">B2B / ONG</span>
+        </div>
+        <div class="app-footer">
+          <div class="app-price">B2B<span>sur devis</span></div>
+          <span class="app-btn-soon">Bientôt disponible</span>
+        </div>
+      </div>
+
+      <!-- Sphinx Prospect -->
+      <div class="app-card reveal">
+        <div class="app-card-top">
+          <div class="app-icon" style="background:linear-gradient(135deg,#db2777,#be185d)">🎯</div>
+          <div class="app-meta">
+            <div class="app-name">Sphinx Prospect</div>
+            <div class="app-tagline">Agent IA de prospection web</div>
+            <div class="app-badge" style="background:rgba(219,39,119,.15);color:#f472b6;border:1px solid rgba(219,39,119,.3)">PROSPECTION</div>
+          </div>
+        </div>
+        <div class="app-desc">Un agent IA qui parcourt le web pour vous : il identifie des prospects ciblés et collecte des adresses et emails qualifiés, prêts pour vos campagnes commerciales et votre développement business.</div>
+        <div class="app-features">
+          <span class="feat-tag">Agent IA</span>
+          <span class="feat-tag">Collecte d'emails</span>
+          <span class="feat-tag">Prospects qualifiés</span>
+          <span class="feat-tag">Automatisé</span>
+          <span class="feat-tag">B2B</span>
+        </div>
+        <div class="app-footer">
+          <div class="app-price">B2B<span>sur devis</span></div>
+          <span class="app-btn-soon">Bientôt disponible</span>
+        </div>
+      </div>
+
+      <!-- CyberShield Africa -->
+      <div class="app-card reveal">
+        <div class="app-card-top">
+          <div class="app-icon" style="background:linear-gradient(135deg,#dc2626,#7f1d1d)">🛡️</div>
+          <div class="app-meta">
+            <div class="app-name">CyberShield Africa</div>
+            <div class="app-tagline">Cybersécurité & formation</div>
+            <div class="app-badge" style="background:rgba(239,68,68,.15);color:#f87171;border:1px solid rgba(239,68,68,.3)">CYBERSÉCURITÉ</div>
+          </div>
+        </div>
+        <div class="app-desc">Plateforme de formation à la cybersécurité pour le marché pan-francophone : labs pratiques, mentor IA personnalisé et gamification pour monter en compétences, du débutant au niveau avancé.</div>
+        <div class="app-features">
+          <span class="feat-tag">Labs pratiques</span>
+          <span class="feat-tag">Mentor IA</span>
+          <span class="feat-tag">Gamification</span>
+          <span class="feat-tag">Certifiant</span>
+          <span class="feat-tag">Pan-francophone</span>
+        </div>
+        <div class="app-footer">
+          <div class="app-price">Formation<span>bientôt</span></div>
+          <span class="app-btn-soon">Bientôt disponible</span>
+        </div>
+      </div>
+
+      <!-- SphinxCompta -->
+      <div class="app-card reveal">
+        <div class="app-card-top">
+          <div class="app-icon" style="background:linear-gradient(135deg,#ca8a04,#a16207)">🧮</div>
+          <div class="app-meta">
+            <div class="app-name">SphinxCompta</div>
+            <div class="app-tagline">Assistant comptable OHADA</div>
+            <div class="app-badge" style="background:rgba(202,138,4,.15);color:#facc15;border:1px solid rgba(202,138,4,.3)">COMPTABILITÉ & FISCALITÉ</div>
+          </div>
+        </div>
+        <div class="app-desc">Assistant comptable et fiscal conforme au référentiel OHADA, adapté au droit fiscal du Bénin et du Niger. Conseils Q&A et calculs fiscaux fiables, réalisés par du code déterministe et expliqués par l'IA.</div>
+        <div class="app-features">
+          <span class="feat-tag">OHADA</span>
+          <span class="feat-tag">Fiscalité Bénin/Niger</span>
+          <span class="feat-tag">Conseil Q&A</span>
+          <span class="feat-tag">Calculs fiables</span>
+          <span class="feat-tag">B2B</span>
+        </div>
+        <div class="app-footer">
+          <div class="app-price">B2B<span>sur devis</span></div>
+          <span class="app-btn-soon">Bientôt disponible</span>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -416,5 +571,3 @@ document.querySelectorAll('.app-card,.featured-card').forEach((el,i)=>{
 </script>
 </body>
 </html>
-sphinxapps-3.html
-Affichage de sphinxapps-3.html en cours...
